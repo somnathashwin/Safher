@@ -51,4 +51,4 @@ Empowering users with **smart safety features** that react in real time during d
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/yourusername/SafeHer.git
+   git clone https://github.com/yourusername/Safeher.git
