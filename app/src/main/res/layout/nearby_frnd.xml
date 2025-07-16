@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NearbyFrndActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nearby Friends"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="10dp"
+            android:fontFamily="@font/nothing"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fillViewport="true">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/scrollableImage"
+                        android:layout_width="2000dp"
+                        android:layout_height="1794dp"
+                        android:contentDescription="@string/scrollable_image_of_nearby_area"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/mapico" />
+
+                    <ImageButton
+                        android:id="@+id/pin1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="300dp"
+                        android:layout_marginTop="400dp"
+                        android:background="@drawable/baseline_location_on_24"
+                        android:backgroundTint="#9B008B"
+                        android:contentDescription="@string/friend_1_location" />
+
+                    <ImageButton
+                        android:id="@+id/pin2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="1200dp"
+                        android:layout_marginTop="900dp"
+                        android:backgroundTint="#4CAF50"
+                        android:contentDescription="@string/friend_2_location"
+                        android:background="@drawable/baseline_location_on_24" />
+
+                    <ImageButton
+                        android:id="@+id/pin3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="600dp"
+                        android:layout_marginTop="1300dp"
+                        android:backgroundTint="#3F51B5"
+                        android:contentDescription="@string/friend_3_location"
+                        android:background="@drawable/baseline_location_on_24" />
+
+                    <ImageButton
+                        android:id="@+id/pin4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="1800dp"
+                        android:layout_marginTop="300dp"
+                        android:backgroundTint="#FFEB3B"
+                        android:contentDescription="@string/friend_4_location"
+                        android:background="@drawable/baseline_location_on_24" />
+
+                    <ImageButton
+                        android:id="@+id/pin5"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="800dp"
+                        android:layout_marginTop="700dp"
+                        android:backgroundTint="#E91E63"
+                        android:contentDescription="@string/friend_5_location"
+                        android:background="@drawable/baseline_location_on_24" />
+
+                    <ImageButton
+                        android:id="@+id/pin6"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="1600dp"
+                        android:layout_marginTop="1200dp"
+                        android:backgroundTint="#9C27B0"
+                        android:contentDescription="Friend 6 Location"
+                        android:background="@drawable/baseline_location_on_24" />
+
+                    <ImageButton
+                        android:id="@+id/pin7"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="400dp"
+                        android:layout_marginTop="200dp"
+                        android:backgroundTint="#2196F3"
+                        android:contentDescription="Friend 7 Location"
+                        android:background="@drawable/baseline_location_on_24" />
+
+                    <ImageButton
+                        android:id="@+id/pin8"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="1000dp"
+                        android:layout_marginTop="1500dp"
+                        android:backgroundTint="#FF9800"
+                        android:contentDescription="Friend 8 Location"
+                        android:background="@drawable/baseline_location_on_24" />
+
+                    <ImageButton
+                        android:id="@+id/pin9"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="500dp"
+                        android:layout_marginTop="900dp"
+                        android:backgroundTint="#607D8B"
+                        android:contentDescription="Friend 9 Location"
+                        android:background="@drawable/baseline_location_on_24" />
+
+                    <ImageButton
+                        android:id="@+id/pin10"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="1600dp"
+                        android:layout_marginTop="1400dp"
+                        android:backgroundTint="#FF9800"
+                        android:contentDescription="Friend 10 Location"
+                        android:background="@drawable/baseline_location_on_24" />
+
+                </RelativeLayout>
+            </ScrollView>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

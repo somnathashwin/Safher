@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Safher</string>
+    <string name="safeher">SafeHer</string>
+    <string name="call_emergency">Call Emergency</string>
+    <string name="quick_alert">Quick Alert</string>
+    <string name="critical_alert">Critical Alert</string>
+    <string name="emergency_number">Emergency Number</string>
+    <string name="continue_Btn">Continue</string>
+    <string name="nearby_friends">Nearby Friends</string>
+    <string name="scrollable_image_of_nearby_area">Scrollable Image of Nearby Area</string>
+    <string name="friend_1_location">Friend 1 Location</string>
+    <string name="friend_2_location">Friend 2 Location</string>
+    <string name="friend_3_location">Friend 3 Location</string>
+    <string name="friend_4_location">Friend 4 Location</string>
+    <string name="friend_5_location">Friend 5 Location</string>
+    <string name="emergency_number_1_mandatory">Emergency Number 1 (Mandatory)</string>
+    <string name="emergency_number_2_mandatory">Emergency Number 2 (Mandatory)</string>
+    <string name="emergency_number_3_mandatory">Emergency Number 3 (Mandatory)</string>
+    <string name="emergency_number_4_optional">Emergency Number 4 (Optional)</string>
+    <string name="emergency_number_5_optional">Emergency Number 5 (Optional)</string>
+</resources>
